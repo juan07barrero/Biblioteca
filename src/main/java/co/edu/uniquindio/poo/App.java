@@ -1,5 +1,8 @@
 package co.edu.uniquindio.poo;
 
+//Presentado por Juan José Barrero y Brayan David Cordoba
+
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
