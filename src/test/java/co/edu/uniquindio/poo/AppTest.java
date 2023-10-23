@@ -76,25 +76,6 @@ public class AppTest {
         assertEquals(libroDigital, resultado.get());
         LOG.info("Fin de prueba de busqueda...");
     }
-
-   /**@Test
-    public void testLibrosDigitalesconVersionImpresa() {
-        LOG.info("Probando libros digitales con version impresa");
-        Biblioteca biblioteca = new Biblioteca("Biblioteca Comunitaria", "Calle 3 Carrera 7", "2007");
-        Autor autor = new Autor("Stephen king","Estadounidense");
-        Editorial editorial = new Editorial("MUNDOLIBRO","323341");
-        LOibroDigital libroDigital = new LOibroDigital("It", "1984", autor,editorial,"https:/it.com");
-        LibroImpreso libroImpreso = new LibroImpreso("It", "1984", autor,editorial,34);
-        biblioteca.agregarLibro(libroDigital);
-        biblioteca.agregarLibro(libroImpreso);
-
-        Optional<LibroImpreso> resultado = biblioteca.LibrosDigitalesconVersionImpresa(libroDigital);
-
-        assertTrue(resultado.isPresent());
-        assertEquals(libroImpreso, resultado.get());
-        LOG.info("Fin de prueba...");
-    }**/
-
     
 
     @Test
